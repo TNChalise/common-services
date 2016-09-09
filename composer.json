@@ -1,0 +1,22 @@
+{
+  "name": "tnchalise/common-services",
+  "description": "Only for tnchalise",
+  "type": "common",
+  "require": {
+    "nesbot/carbon": "~1.21",
+    "php": ">=5.5.6"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tnchalise",
+      "email": "tnchalise99@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": {
+      "CommonServices": "src/"
+    }
+  }
+}
