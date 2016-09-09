@@ -10,4 +10,7 @@
 	
 	use CommonServices\HelperService;
 	
-	echo HelperService::sayHello();
+	echo HelperService::getRandomString(8);
+	echo HelperService::commentCountsInKs(1122);
+	echo HelperService::addScheme('google.com');
+	echo HelperService::addScheme('127.0.0.1','ftp://');
